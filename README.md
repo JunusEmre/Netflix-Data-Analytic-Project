@@ -1,12 +1,12 @@
-# Netflix Data Exploration Project
+## Netflix Data Exploration Project
 
 A data science analysis of a Netflix dataset using Python, with insights extracted via visualizations and a custom content-based recommender system.
 
-## Project Overview
+#### Project Overview
 
 This project explores patterns in Netflix's content — uncovering genre distributions, cast frequencies, release year trends, and regional contributions. It also includes a recommender system that suggests similar shows based on textual similarity from genre and description.
 
-## Files Included
+#### Files Included
 
 | File | Description |
 |------|-------------|
@@ -16,7 +16,7 @@ This project explores patterns in Netflix's content — uncovering genre distrib
 | `presentation.pdf` | High-level summary for general audiences |
 | `README.md` | Project documentation (you’re reading it!) |
 
-## Visualizations Included
+#### Visualizations Included
 
 - Distribution of content types (Movies vs TV Shows)
 - Release year trends
@@ -27,16 +27,11 @@ This project explores patterns in Netflix's content — uncovering genre distrib
 - Actor appearance frequency
 - Genre-based word cloud
 
-## Recommender System
+#### Recommender System
 
 A content-based model using TF-IDF vectorization of genre + description to suggest similar titles to any chosen one.
 
-Example:
-```python
-recommend("Kota Factory")
-
-
-### Dashboard App
+#### Dashboard App
 
 Welcome to my interactive dashboard built with Streamlit!  
 Explore data insights and visualizations in real time.
@@ -54,8 +49,7 @@ Explore data insights and visualizations in real time.
 - Real-time data filtering
 - Clean and responsive UI
 
-
-## Requirements
+#### Requirements
 
 This project uses the following Python packages:
 
@@ -73,6 +67,5 @@ This project uses the following Python packages:
 - streamlit
 - joblib
 - openpyxl
-
 
 Feel free to fork, explore, and reach out with feedback!
